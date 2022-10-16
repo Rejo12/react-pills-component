@@ -1,0 +1,36 @@
+{
+  "name": "react-pills-component",
+  "version": "1.0.0",
+  "description": "This is a simple react package to display keywords in a pill.",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "fsevents": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "react": "^18.2.0",
+    "react-dom": "^16.14.0"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rejo12/react-pills-component.git"
+  },
+  "keywords": [
+    "react pills",
+    "react-pills",
+    "react capsules",
+    "react multiselect pills",
+    "react pill component"
+  ],
+  "author": "rejo mathew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rejo12/react-pills-component/issues"
+  },
+  "homepage": "https://github.com/Rejo12/react-pills-component#readme"
+}

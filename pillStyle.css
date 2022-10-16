@@ -1,0 +1,12 @@
+.pillContainer{
+  width: fit-content;
+  border-radius: 15px;
+  margin: 5px 6px;
+  padding: 3px 5px;
+  min-width: 75px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px 1px #1c1b1ba6;;
+}
