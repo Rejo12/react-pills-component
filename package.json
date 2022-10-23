@@ -1,6 +1,6 @@
 {
   "name": "react-pills-component",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is a simple react package to display keywords in a pill.",
   "main": "index.js",
   "dependencies": {
@@ -23,6 +23,7 @@
   "keywords": [
     "react pills",
     "react-pills",
+    "react-pill",
     "react capsules",
     "react multiselect pills",
     "react pill component"

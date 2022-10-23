@@ -33,7 +33,8 @@ var Pills = function Pills(_ref) {
           return handleClick(item);
         },
         style: {
-          backgroundColor: !item.selected ? item.pillColor ? item.pillColor : "azure" : item.selectedPillColor || "violet"
+          backgroundColor: !item.selected ? item.pillColor ? item.pillColor : "azure" : item.selectedPillColor || "violet",
+          color: item.textColor || "black"
         }
       }, item.text || "");
     }));

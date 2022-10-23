@@ -23,6 +23,7 @@ import Pills from "react-pills-component";
         pillColor: "yellow",
         selected: false,
         selectedPillColor: "blue",
+        textColor: "white",
       },
       {
         text: "Milk",
@@ -30,6 +31,7 @@ import Pills from "react-pills-component";
         pillColor: "blue",
         selected: false,
         selectedPillColor: "yellow",
+        textColor: "white",
       },
       {
         text: "Sunday",
@@ -37,6 +39,7 @@ import Pills from "react-pills-component";
         pillColor: "orange",
         selected: false,
         selectedPillColor: "white",
+        textColor: "grey",
       },
       {
         text: "The brightest star",
@@ -51,6 +54,7 @@ import Pills from "react-pills-component";
         pillColor: "red",
         selected: false,
         selectedPillColor: "blue",
+        textColor: "white",
       }
     ],
 
@@ -67,6 +71,7 @@ import Pills from "react-pills-component";
 | `Input`     | `itemList.selected`          | `yes`     | `boolean`  | Boolean value used to identify if a pill is selected or not.                                             |
 | `Input`     | `itemList.pillColor`         | `no`      | `string`   | Background color for the pill.Default color is azure.                                                    |
 | `Input`     | `itemList.selectedPillColor` | `no`      | `string`   | Background color for the pill when a pill is selected(itemList.selected = true).Default color is violet. |
+| `Input`     | `itemList.textColor`         | `no`      | `string`   | Text color for the pill.Default color is black.                                                          |
 | `Props`     | `selectedPill`               | `yes`     | `function` | Function that will give back the selected value.                                                         |
 
 ---

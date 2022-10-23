@@ -8,5 +8,7 @@
   text-align: center;
   border: 1px solid;
   cursor: pointer;
-  box-shadow: 3px 3px 5px 1px #1c1b1ba6;;
+  box-shadow: 3px 3px 5px 1px #1c1b1ba6;
+  padding: 4px 18px;
+  border:1px solid black;
 }

@@ -24,6 +24,7 @@ const Pills = ({ itemList, selectedPill = () => {} }) => {
                     ? item.pillColor
                     : "azure"
                   : item.selectedPillColor || "violet",
+                color: item.textColor || "black",
               }}
             >
               {item.text || ""}
